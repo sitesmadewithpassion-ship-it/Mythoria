@@ -1,0 +1,40 @@
+{
+  "name": "Mythoria",
+  "version": "1.0.0",
+  "description": "The Official Fantasy Encyclopedia - A premium, cinematic fantasy world encyclopedia website",
+  "main": "index.html",
+  "author": "Mythoria Creative Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sitesmadewithpassion-ship-it/Mythoria.git"
+  },
+  "keywords": [
+    "fantasy",
+    "encyclopedia",
+    "world-building",
+    "interactive",
+    "dark-fantasy",
+    "magic",
+    "kingdoms",
+    "creatures",
+    "spells",
+    "characters"
+  ],
+  "homepage": "https://mythoria.world",
+  "scripts": {
+    "start": "open index.html",
+    "server": "python -m http.server 8000",
+    "build": "echo 'Build script - minify CSS and JS'",
+    "test": "echo 'Test suite - validate all content'",
+    "lint": "echo 'Lint code - check for errors'"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
